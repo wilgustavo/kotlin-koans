@@ -361,9 +361,9 @@
                       </option>
                       <option name="index" value="5" />
                       <option name="name" value="Lambdas" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234724" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;&#10;class TestLambdas() {&#10;    @Test fun contains() {&#10;        Assert.assertTrue(&quot;The result should be true if the collection contains an even number&quot;, containsEven(listOf(1, 2, 3, 126, 555)))&#10;    }&#10;&#10;    @Test fun notContains() {&#10;        Assert.assertFalse(&quot;The result should be false if the collection doesn't contain an even number&quot;, containsEven(listOf(43, 33)))&#10;    }&#10;}" />
@@ -391,19 +391,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="11" />
                                       <option name="offset" value="74" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="it % 2 == 0" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
