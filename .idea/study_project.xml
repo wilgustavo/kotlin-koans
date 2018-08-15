@@ -568,9 +568,9 @@
                       </option>
                       <option name="index" value="8" />
                       <option name="name" value="Nullable types" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234727" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;&#10;class TestNullableTypes {&#10;    fun testSendMessageToClient(&#10;            client: Client?,&#10;            message: String?,&#10;            expectedEmail: String? = null,&#10;            shouldBeInvoked: Boolean = false&#10;    ) {&#10;        var invoked = false&#10;        val expectedMessage = message&#10;        sendMessageToClient(client, message, object : Mailer {&#10;            override fun sendMessage(email: String, message: String) {&#10;                invoked = true&#10;                Assert.assertEquals(&quot;The message is not as expected:&quot;,&#10;                        expectedMessage, message)&#10;                Assert.assertEquals(&quot;The email is not as expected:&quot;,&#10;                        expectedEmail, email)&#10;            }&#10;        })&#10;        Assert.assertEquals(&quot;The function 'sendMessage' should${if (shouldBeInvoked) &quot;&quot; else &quot;n't&quot;} be invoked&quot;,&#10;                shouldBeInvoked, invoked)&#10;    }&#10;&#10;    @Test fun everythingIsOk() {&#10;        testSendMessageToClient(Client(PersonalInfo(&quot;bob@gmail.com&quot;)),&#10;                &quot;Hi Bob! We have an awesome proposition for you...&quot;,&#10;                &quot;bob@gmail.com&quot;,&#10;                true)&#10;    }&#10;&#10;    @Test fun noMessage() {&#10;        testSendMessageToClient(Client(PersonalInfo(&quot;bob@gmail.com&quot;)), null)&#10;    }&#10;&#10;    @Test fun noEmail() {&#10;        testSendMessageToClient(Client(PersonalInfo(null)), &quot;Hi Bob! We have an awesome proposition for you...&quot;)&#10;    }&#10;&#10;    @Test fun noPersonalInfo() {&#10;        testSendMessageToClient(Client(null), &quot;Hi Bob! We have an awesome proposition for you...&quot;)&#10;    }&#10;&#10;    @Test fun noClient() {&#10;        testSendMessageToClient(null, &quot;Hi Bob! We have an awesome proposition for you...&quot;)&#10;    }&#10;}" />
@@ -598,19 +598,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="170" />
                                       <option name="offset" value="90" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="val email = client?.personalInfo?.email&#10;    if (email != null &amp;&amp; message != null) {&#10;        mailer.sendMessage(email, message)&#10;    }" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
