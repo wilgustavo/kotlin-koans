@@ -637,9 +637,9 @@
                       </option>
                       <option name="index" value="9" />
                       <option name="name" value="Smart casts" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234728" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;&#10;class TestSmartCasts {&#10;    @Test fun testNum() {&#10;        Assert.assertEquals(&quot;'eval' on Num should work:&quot;, 2, eval(Num(2)))&#10;    }&#10;&#10;    @Test fun testSum() {&#10;        Assert.assertEquals(&quot;'eval' on Sum should work:&quot;, 3, eval(Sum(Num(2), Num(1))))&#10;    }&#10;&#10;    @Test fun testRecursion() {&#10;        Assert.assertEquals(&quot;'eval' should work:&quot;, 6, eval(Sum(Sum(Num(1), Num(2)), Num(3))))&#10;    }&#10;}" />
@@ -667,13 +667,13 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="10" />
                                       <option name="offset" value="72" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="expr.value" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
@@ -691,19 +691,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="101" />
+                                      <option name="length" value="34" />
+                                      <option name="offset" value="105" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="eval(expr.left) + eval(expr.right)" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
