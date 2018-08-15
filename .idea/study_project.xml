@@ -430,9 +430,9 @@
                       </option>
                       <option name="index" value="6" />
                       <option name="name" value="Strings" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234725" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;import java.util.regex.Pattern&#10;&#10;class TestStringTemplates() {&#10;    private fun testMatch(date: String) = Assert.assertTrue(&quot;The pattern should match $date&quot;, date.matches(getPattern().toRegex()))&#10;    private fun testMismatch(date: String) = Assert.assertFalse(&quot;The pattern shouldn't match $date&quot;, date.matches(getPattern().toRegex()))&#10;&#10;    @Test fun match() {&#10;        testMatch(&quot;11 MAR 1952&quot;)&#10;    }&#10;&#10;    @Test fun match1() {&#10;        testMatch(&quot;24 AUG 1957&quot;)&#10;    }&#10;&#10;    @Test fun doNotMatch() {&#10;        testMismatch(&quot;24 RRR 1957&quot;)&#10;    }}" />
@@ -460,19 +460,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="92" />
+                                      <option name="length" value="26" />
+                                      <option name="offset" value="98" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="&quot;&quot;&quot;\d{2} ${month} \d{4}&quot;&quot;&quot;" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
