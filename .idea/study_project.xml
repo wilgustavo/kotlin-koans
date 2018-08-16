@@ -1112,9 +1112,9 @@
                       </option>
                       <option name="index" value="2" />
                       <option name="name" value="In range" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234734" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.inEquals&#10;&#10;class TestInRange {&#10;    fun doTest(date: MyDate, first: MyDate, last: MyDate, shouldBeInRange: Boolean) {&#10;        val message = &quot;${date} should${if (shouldBeInRange) &quot;&quot; else &quot;n't&quot;} be in ${DateRange(first, last)}&quot;.inEquals()&#10;        Assert.assertEquals(message, shouldBeInRange, checkInRange(date, first, last))&#10;    }&#10;&#10;    @Test fun testInRange() {&#10;        doTest(MyDate(2014, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = true)&#10;    }&#10;&#10;    @Test fun testBefore() {&#10;        doTest(MyDate(2013, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = false)&#10;    }&#10;&#10;    @Test fun testAfter() {&#10;        doTest(MyDate(2015, 3, 22), MyDate(2014, 1, 1), MyDate(2015, 1, 1), shouldBeInRange = false)&#10;    }&#10;}" />
@@ -1157,19 +1157,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="10" />
-                                      <option name="offset" value="60" />
+                                      <option name="length" value="138" />
+                                      <option name="offset" value="78" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="/* TODO */" />
                                       <option name="possibleAnswer" value=" {&#10;    operator fun contains(item: MyDate): Boolean = start &lt;= item &amp;&amp; item &lt;= endInclusive&#10;}" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
