@@ -961,9 +961,9 @@
                       </option>
                       <option name="index" value="13" />
                       <option name="name" value="Extensions on collections" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234732" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Test&#10;import org.junit.Assert&#10;&#10;class TestExtensionsOnCollections {&#10;    @Test fun testSort() {&#10;        Assert.assertEquals(listOf(5, 2, 1), getList())&#10;    }&#10;}" />
@@ -991,19 +991,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="52" />
+                                      <option name="length" value="19" />
                                       <option name="offset" value="58" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="//TODO(&quot;return the list sorted in descending order&quot;)" />
                                       <option name="possibleAnswer" value=".sortedDescending()" />
                                       <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
