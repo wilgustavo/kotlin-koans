@@ -1280,9 +1280,9 @@
                       </option>
                       <option name="index" value="4" />
                       <option name="name" value="For loop" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234736" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.inEquals&#10;&#10;class TestForLoop {&#10;    @Test fun testIterateOverDateRange() {&#10;        val actualDateRange = arrayListOf&lt;MyDate&gt;()&#10;        iterateOverDateRange(MyDate(2016, 5, 1), MyDate(2016, 5, 5), {&#10;            date-&gt; actualDateRange.add(date)&#10;        })&#10;        val expectedDateRange = arrayListOf(&#10;                MyDate(2016, 5, 1), MyDate(2016, 5, 2), MyDate(2016, 5, 3), MyDate(2016, 5, 4), MyDate(2016, 5, 5))&#10;        Assert.assertEquals(&quot;Incorrect iteration over five nice spring dates&quot;.inEquals(),&#10;                expectedDateRange, actualDateRange)&#10;    }&#10;&#10;    @Test fun testIterateOverEmptyRange() {&#10;        var invoked = false&#10;        iterateOverDateRange(MyDate(2016, 1, 1), MyDate(2015, 1, 1), { invoked = true })&#10;        Assert.assertFalse(&quot;Handler was invoked on an empty range&quot;.inEquals(), invoked)&#10;    }&#10;}" />
@@ -1340,19 +1340,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="51" />
+                                      <option name="length" value="467" />
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="class DateRange(val start: MyDate, val end: MyDate)" />
                                       <option name="possibleAnswer" value="class DateRange(val start: MyDate, val end: MyDate): Iterable&lt;MyDate&gt;{&#10;    override fun iterator(): Iterator&lt;MyDate&gt; = DateIterator(this)&#10;}&#10;&#10;class DateIterator(val dateRange:DateRange) : Iterator&lt;MyDate&gt; {&#10;    var current: MyDate = dateRange.start&#10;    override fun next(): MyDate {&#10;        val result = current&#10;        current = current.nextDay()&#10;        return result&#10;    }&#10;    override fun hasNext(): Boolean = current &lt;= dateRange.end&#10;}" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
