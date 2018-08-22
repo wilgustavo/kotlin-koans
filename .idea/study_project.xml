@@ -1638,9 +1638,9 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Introduction" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234740" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.toMessage&#10;&#10;class TestIntroduction {&#10;    @Test fun testSetOfCustomers(){&#10;        Assert.assertTrue(&quot;getSetOfCustomers&quot;.toMessage(),&#10;                shop.getSetOfCustomers() == customers.values.toSet())&#10;    }&#10;}&#10;" />
@@ -1683,19 +1683,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="22" />
                                       <option name="offset" value="46" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="customers.toSet()" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
