@@ -1556,9 +1556,9 @@
                       </option>
                       <option name="index" value="7" />
                       <option name="name" value="Invoke" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234739" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="testsText">
                         <map>
                           <entry key="tests.kt" value="import org.junit.Assert&#10;import org.junit.Test&#10;import koans.util.inEquals&#10;&#10;class TestInvoke {&#10;    @Test fun testInvokeTwice() = testInvokable(2, ::invokeTwice)&#10;&#10;    private fun testInvokable(numberOfInvocations: Int, invokeSeveralTimes: (Invokable) -&gt; Invokable) {&#10;        val invokable = Invokable()&#10;        val message = &quot;The number of invocations is incorrect&quot;.inEquals()&#10;        Assert.assertEquals(message, numberOfInvocations, invokeSeveralTimes(invokable).numberOfInvocations)&#10;    }&#10;&#10;    @Test fun testNumberOfInvocations() {&#10;        testInvokable(1) { it() }&#10;        testInvokable(5) { it()()()()() }&#10;        testInvokable(0) { it }&#10;    }&#10;}&#10;" />
@@ -1586,19 +1586,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
+                                      <option name="length" value="41" />
                                       <option name="offset" value="122" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="numberOfInvocations++&#10;        return this" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="trackChanges" value="true" />
                                 <option name="trackLengths" value="true" />
                                 <option name="userCreated" value="false" />
